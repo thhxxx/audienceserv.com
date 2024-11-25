@@ -1,0 +1,427 @@
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #f7f7f7;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+}
+
+.bg-none {
+  background: none !important;
+}
+
+.bg-yellow {
+  background-color: #f8d94c !important;
+}
+
+.text-yellow {
+  color: #f8d94c !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.dropdown-item:active {
+  background-color: #f8d94c !important;
+}
+
+.rounded-bottom-100 {
+  border-radius: 0 0 100px 100px !important;
+}
+
+.bebas-font {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.fs-7 {
+  font-size: 14px !important;
+}
+
+.fs-8 {
+  font-size: 12px !important;
+}
+
+.fs-120 {
+  font-size: 120px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.custom-icon {
+  background: #f8d94c;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 100px 100px !important;
+}
+
+.client-slider .slick-slide {
+  padding: 0 30px;
+}
+
+.tab-title button.active {
+  color: #f8d94c !important;
+  border-left: 5px solid #f8d94c !important;
+  padding-left: 10px !important;
+}
+
+.feedback-slider .slick-dots {
+  display: flex;
+  margin-top: 50px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.feedback-slider .slick-dots li {
+  list-style: none;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 10px 12px 10px 0;
+}
+.feedback-slider .slick-dots li.slick-active {
+  border-bottom: 1px solid #000;
+}
+.feedback-slider .slick-dots li.slick-active button {
+  color: #000;
+}
+.feedback-slider .slick-dots li button {
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  color: #b7b7b7;
+  background: none;
+}
+
+.index .banner {
+  background: url(../images/bg-home.jpg) fixed no-repeat center center/cover;
+}
+.index .solutions .items .col-xl-6 .item {
+  height: 300px;
+}
+.index .solutions .items .col-xl-6:first-child .item:first-child {
+  background: #f8d94c url(../images/bg-home.jpg);
+  background-size: cover;
+  background-blend-mode: color-dodge;
+}
+.index .why-choose-us {
+  background: #f6edf5;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+.index .why-choose-us .numerical-order {
+  background: #f8d94c;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+}
+.index .growth-support {
+  background: url(../images/bg-home.jpg);
+  background-size: cover;
+  color: #fff;
+  border-radius: 100px;
+  padding: 100px 0;
+}
+.index .growth-support .directors-slider {
+  overflow: hidden;
+}
+.index .growth-support .directors-slider .slick-dots {
+  display: flex;
+  margin-top: 30px;
+  padding: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  column-gap: 10px;
+}
+.index .growth-support .directors-slider .slick-dots li {
+  list-style: none;
+}
+.index .growth-support .directors-slider .slick-dots li.slick-active button {
+  background: #f8d94c;
+}
+.index .growth-support .directors-slider .slick-dots li button {
+  font-size: 0;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+.index .growth-support .directors-slider .slick-slide {
+  margin: 0 20px;
+}
+.index .growth-support .directors-slider .slick-list {
+  margin: 0 -20px;
+}
+
+.why-email-marketing .banner {
+  background: url(../images/why-email.png) fixed no-repeat center center/cover;
+}
+.why-email-marketing .still-matters, .why-email-marketing .benefits {
+  background: #f6edf5;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+.why-email-marketing .boost-company-growth {
+  background: #222222;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+
+.livesend .clients .title-primary {
+  display: none;
+}
+.livesend .banner {
+  background: url(../images/livesend.png) fixed no-repeat center center/cover;
+}
+.livesend .the-power {
+  background: #222222;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+
+.template-creation .clients .title-primary {
+  display: none;
+}
+.template-creation .banner {
+  background: url(../images/template_creation.png) fixed no-repeat center center/cover;
+}
+.template-creation .your-design {
+  background: #222222;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+
+.about-us .banner {
+  background: url(../images/about-us.png) fixed no-repeat center center/cover;
+}
+.about-us .meet-the-team {
+  background: #222222;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+.about-us .awards .items .item {
+  width: 250px;
+  height: 250px;
+}
+.about-us .awards .items .item img {
+  height: 80px;
+  object-fit: contain;
+}
+.about-us .join-us {
+  background: #f6edf5;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+
+.solutions .banner {
+  background: url(../images/solutions.jpg) fixed no-repeat center center/cover;
+}
+
+.press .banner {
+  background: url(../images/press.png) fixed no-repeat center center/cover;
+}
+
+.case-study .banner {
+  background: url(../images/case-study.png) fixed no-repeat center center/cover;
+}
+.case-study .case-studies .items {
+  column-count: 4;
+}
+.case-study .case-studies .items .item {
+  break-inside: avoid;
+}
+
+.contact .banner {
+  background: url(../images/BERLIN.jpg) fixed no-repeat center center/cover;
+}
+.contact .img-contact {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bg-contact {
+  background: url(../images/imprint.png) fixed no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 100px 100px !important;
+}
+
+.email-marketing .clients .title-primary {
+  display: none;
+}
+.email-marketing .banner {
+  background: url(../images/email-marketing.png) fixed no-repeat center center/cover;
+}
+.email-marketing .database-overview {
+  background: #222222;
+  padding: 100px 0;
+  border-radius: 100px;
+}
+.email-marketing .database-overview .countries {
+  margin: 0;
+  padding: 0;
+}
+.email-marketing .database-overview .countries li {
+  list-style: none;
+  width: 33.33333333%;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.email-marketing .database-overview .chart {
+  width: 250px;
+  height: 250px;
+  background: conic-gradient(#449cda 0% 4%, #fd7603 4% 27%, #00bf71 27% 58%, #ffbe00 58% 83%, #3771ca 83% 100%);
+  border-radius: 50%;
+  position: relative;
+}
+.email-marketing .database-overview .chart::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 180px;
+  background: #222222;
+  border-radius: 50%;
+}
+.email-marketing .database-overview table tr td {
+  padding: 5px 10px;
+}
+.email-marketing .database-overview table tr td span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.email-marketing .database-overview table tr td span.blue {
+  background: #449cda;
+}
+.email-marketing .database-overview table tr td span.orange {
+  background: #fd7603;
+}
+.email-marketing .database-overview table tr td span.green {
+  background: #00bf71;
+}
+.email-marketing .database-overview table tr td span.yellow {
+  background: #ffbe00;
+}
+.email-marketing .database-overview table tr td span.dark-blue {
+  background: #3771ca;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  list-style: none;
+  font-size: 40px;
+}
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .fs-120 {
+    font-size: 50px;
+  }
+  .bg-contact {
+    border-radius: 0 !important;
+  }
+  .banner {
+    border-radius: 0 !important;
+  }
+  .index .why-choose-us {
+    border-radius: 0;
+  }
+  .index .why-choose-us img {
+    height: auto !important;
+  }
+  .index .growth-support {
+    border-radius: 0;
+  }
+  .why-email-marketing .still-matters, .why-email-marketing .benefits {
+    border-radius: 0;
+  }
+  .why-email-marketing .boost-company-growth {
+    border-radius: 0;
+  }
+  .email-marketing .database-overview {
+    border-radius: 0;
+  }
+  .email-marketing .database-overview .countries li {
+    width: 50%;
+  }
+  .livesend .the-power {
+    border-radius: 0;
+  }
+  .template-creation .your-design {
+    border-radius: 0;
+  }
+  .about-us .meet-the-team {
+    border-radius: 0;
+  }
+  .about-us .awards .items .item {
+    margin: auto;
+  }
+  .about-us .join-us {
+    border-radius: 0;
+  }
+  .case-study .case-studies .items {
+    column-count: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

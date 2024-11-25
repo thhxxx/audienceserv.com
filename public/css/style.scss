@@ -1,0 +1,581 @@
+$yellow-color: #f8d94c;
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #f7f7f7;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+}
+
+.bg-none {
+  background: none !important;
+}
+
+.bg-yellow {
+  background-color: $yellow-color !important;
+}
+
+.text-yellow {
+  color: $yellow-color !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.dropdown-item:active {
+  background-color: $yellow-color !important;
+}
+
+.rounded-bottom-100 {
+  border-radius: 0 0 100px 100px !important;
+}
+
+.bebas-font {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.fs-7 {
+  font-size: 14px !important;
+}
+
+.fs-8 {
+  font-size: 12px !important;
+}
+
+.fs-120 {
+  font-size: 120px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.custom-icon {
+  background: $yellow-color;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 100px 100px !important;
+}
+
+.client-slider {
+  .slick-slide {
+    padding: 0 30px;
+  }
+}
+
+.tab-title {
+  button.active {
+    color: $yellow-color !important;
+    border-left: 5px solid $yellow-color !important;
+    padding-left: 10px !important;
+  }
+}
+
+.feedback-slider {
+  .slick-dots {
+    display: flex;
+    margin-top: 50px;
+    padding: 0;
+    margin-bottom: 0;
+
+    li {
+      list-style: none;
+      border-bottom: 1px solid #c5c5c5;
+      padding: 10px 12px 10px 0;
+
+      &.slick-active {
+        border-bottom: 1px solid #000;
+
+        button {
+          color: #000;
+        }
+      }
+
+      button {
+        border: none;
+        font-weight: 700;
+        font-size: 12px;
+        color: #b7b7b7;
+        background: none;
+      }
+    }
+  }
+}
+
+.index {
+  .banner {
+    background: url(../images/bg-home.jpg) fixed no-repeat center center / cover;
+  }
+
+  .solutions {
+    .items {
+      .col-xl-6 {
+        .item {
+          height: 300px;
+        }
+
+        &:first-child {
+          .item {
+            &:first-child {
+              background: $yellow-color url(../images/bg-home.jpg);
+              background-size: cover;
+              background-blend-mode: color-dodge;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .why-choose-us {
+    background: #f6edf5;
+    padding: 100px 0;
+    border-radius: 100px;
+
+    .numerical-order {
+      background: $yellow-color;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border-radius: 50%;
+      line-height: 50px;
+    }
+  }
+
+  .growth-support {
+    background: url(../images/bg-home.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px 0;
+
+    .directors-slider {
+      overflow: hidden;
+
+      .slick-dots {
+        display: flex;
+        margin-top: 30px;
+        padding: 0;
+        margin-bottom: 0;
+        justify-content: center;
+        column-gap: 10px;
+
+        li {
+          list-style: none;
+
+          &.slick-active {
+            button {
+              background: $yellow-color;
+            }
+          }
+
+          button {
+            font-size: 0;
+            border: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+
+      .slick-slide {
+        margin: 0 20px;
+      }
+
+      .slick-list {
+        margin: 0 -20px;
+      }
+    }
+  }
+}
+
+.why-email-marketing {
+  .banner {
+    background: url(../images/why-email.png) fixed no-repeat center center / cover;
+  }
+
+  .still-matters {
+    background: #f6edf5;
+    padding: 100px 0;
+    border-radius: 100px;
+  }
+
+  .benefits {
+    @extend .still-matters;
+  }
+
+  .boost-company-growth {
+    background: #222222;
+    padding: 100px 0;
+    border-radius: 100px;
+  }
+}
+
+.livesend {
+  .clients {
+    .title-primary {
+      display: none;
+    }
+  }
+
+  .banner {
+    background: url(../images/livesend.png) fixed no-repeat center center / cover;
+  }
+
+  .the-power {
+    background: #222222;
+    padding: 100px 0;
+    border-radius: 100px;
+  }
+}
+
+.template-creation {
+  .clients {
+    .title-primary {
+      display: none;
+    }
+  }
+
+  .banner {
+    background: url(../images/template_creation.png) fixed no-repeat center center / cover;
+  }
+
+  .your-design {
+    background: #222222;
+    padding: 100px 0;
+    border-radius: 100px;
+  }
+}
+
+.about-us {
+  .banner {
+    background: url(../images/about-us.png) fixed no-repeat center center / cover;
+  }
+
+  .meet-the-team {
+    background: #222222;
+    padding: 100px 0;
+    border-radius: 100px;
+  }
+
+  .awards {
+    .items {
+      .item {
+        width: 250px;
+        height: 250px;
+
+        img {
+          height: 80px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  .join-us {
+    background: #f6edf5;
+    padding: 100px 0;
+    border-radius: 100px;
+  }
+}
+
+.solutions{
+  .banner{
+    background: url(../images/solutions.jpg) fixed no-repeat center center / cover;
+  }
+}
+
+.press{
+  .banner{
+    background: url(../images/press.png) fixed no-repeat center center / cover;
+  }
+}
+
+.case-study {
+  .banner {
+    background: url(../images/case-study.png) fixed no-repeat center center / cover;
+  }
+
+  .case-studies {
+    .items {
+      column-count: 4;
+
+      .item {
+        break-inside: avoid;
+      }
+    }
+  }
+}
+
+.contact {
+  .banner {
+    background: url(../images/BERLIN.jpg) fixed no-repeat center center / cover;
+  }
+
+  .img-contact {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+.bg-contact {
+  background: url(../images/imprint.png) fixed no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 100px 100px !important;
+}
+
+.email-marketing {
+
+  .clients {
+    .title-primary {
+      display: none;
+    }
+  }
+
+  .banner {
+    background: url(../images/email-marketing.png) fixed no-repeat center center / cover;
+  }
+
+  .database-overview {
+    background: #222222;
+    padding: 100px 0;
+    border-radius: 100px;
+
+    .countries {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        width: 33.33333333%;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+      }
+    }
+
+    .chart {
+      width: 250px;
+      height: 250px;
+      background: conic-gradient(
+                      #449cda 0% 4%,
+                      #fd7603 4% 27%,
+                      #00bf71 27% 58%,
+                      #ffbe00 58% 83%,
+                      #3771ca 83% 100%
+      );
+      border-radius: 50%;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+        height: 180px;
+        background: #222222;
+        border-radius: 50%;
+      }
+    }
+
+    table {
+      tr {
+        td {
+          padding: 5px 10px;
+
+          span {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+
+            &.blue {
+              background: #449cda;
+            }
+
+            &.orange {
+              background: #fd7603;
+            }
+
+            &.green {
+              background: #00bf71;
+            }
+
+            &.yellow {
+              background: #ffbe00;
+            }
+
+            &.dark-blue {
+              background: #3771ca;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 700;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    font-size: 40px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .fs-120 {
+    font-size: 50px;
+  }
+
+  .bg-contact {
+    border-radius: 0 !important;
+  }
+
+  .banner {
+    border-radius: 0 !important;
+  }
+
+  .index {
+    .why-choose-us {
+      border-radius: 0;
+
+      img {
+        height: auto !important;
+      }
+    }
+
+    .growth-support {
+      border-radius: 0;
+    }
+  }
+
+  .why-email-marketing {
+    .still-matters {
+      border-radius: 0;
+    }
+
+    .benefits {
+      @extend .still-matters;
+    }
+
+    .boost-company-growth {
+      border-radius: 0;
+    }
+  }
+
+  .email-marketing {
+    .database-overview {
+      border-radius: 0;
+
+      .countries {
+        li {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .livesend {
+    .the-power {
+      border-radius: 0;
+    }
+  }
+
+  .template-creation {
+    .your-design {
+      border-radius: 0;
+    }
+  }
+
+  .about-us {
+    .meet-the-team {
+      border-radius: 0;
+    }
+
+    .awards {
+      .items {
+        .item {
+          margin: auto;
+        }
+      }
+    }
+
+    .join-us {
+      border-radius: 0;
+    }
+  }
+
+  .case-study {
+    .case-studies {
+      .items {
+        column-count: 1;
+      }
+    }
+  }
+}
